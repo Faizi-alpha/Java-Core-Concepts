@@ -15,8 +15,8 @@ public class multiple_catch {
         catch(Exception e){
             System.out.print("Generic Exception Catch");
     }
-        /*this below exception is never reached because ArithmeticException is a subclass if Exception
-          catch(ArithmeticException e)     This is invalid because the exception has already been caught above.
+        /*this below exception is never reached because ArithmeticException is a subclass of Exception
+          catch(ArithmeticException e)    -->  This is invalid because the exception has already been caught above.
          {
             System.out.print("This is never reached");
          }
